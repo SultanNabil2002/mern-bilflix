@@ -24,7 +24,7 @@ const Footer = () => {
                 />
             </ul>
             <OptionLanguage />
-            <p className='mt-4'>Netflix Indonesia</p>
+            <p className='mt-4'>Bilflix Indonesia</p>
         </footer>
     )
 }

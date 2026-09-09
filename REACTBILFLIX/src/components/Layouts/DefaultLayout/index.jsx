@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '@/pages/Landing/Navbar'
+import Loading from '@/components/modules/Elements/Loading'
 import { useAuthState } from "react-firebase-hooks/auth"
 import { auth } from '@/utils/firebase'
 import { emailStorageAtom, tokenAtom } from '@/jotai/atoms'
@@ -10,7 +11,7 @@ const DefaultLayout = ({ children }) => {
     const [emailStorage] = useAtom(emailStorageAtom)
     const [tokenStorage] = useAtom(tokenAtom)
 
-    if (loading) return <p>loading...</p>
+    if (loading) return <Loading />
 
     if (error) return <p>error...</p>
 
