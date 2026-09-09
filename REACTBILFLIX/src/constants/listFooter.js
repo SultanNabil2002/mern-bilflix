@@ -64,7 +64,7 @@ const LIST_FOOTER_EN = [
         url: "/"
     },
     {
-        title: "Only on Netflix",
+        title: "Only on Bilflix",
         url: "/",
     },
 ];
@@ -135,7 +135,7 @@ const LIST_FOOTER_ID = [
         url: "/",
     },
     {
-        title: "Hanya Di Netflix",
+        title: "Hanya Di Bilflix",
         url: "/",
     },
 ];

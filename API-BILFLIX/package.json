@@ -1,7 +1,7 @@
 {
-  "name": "api-netflix",
+  "name": "api-bilflix",
   "version": "1.0.0",
-  "description": "api untuk netflix clone express js",
+  "description": "api untuk bilflix clone express js",
   "license": "ISC",
   "author": "sultan nabil",
   "type": "commonjs",

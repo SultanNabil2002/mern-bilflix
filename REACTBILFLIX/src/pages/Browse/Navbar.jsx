@@ -17,7 +17,7 @@ const Navbar = () => {
                             onClick={() => navigate("/browse")}
                             src="/netflix_logo_icon.png"
                             className='w-[120px] ml-2 cursor-pointer hover:scale-105 transition-all'
-                            alt='Netflix Logo'
+                            alt='Bilflix Logo'
                         />
                         <ul className='sm:flex hidden flex items-center gap-4'>
                             <EachUtils

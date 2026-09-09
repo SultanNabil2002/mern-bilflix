@@ -1,7 +1,7 @@
 openapi: 3.1.0
 info:
-  title: Netflix Clone API Project
-  description: Netflix API Express JS MongoDB Databases
+  title: Bilflix API Project
+  description: Bilflix API Express JS MongoDB Databases
   version: 1.0.0
 
 tags:

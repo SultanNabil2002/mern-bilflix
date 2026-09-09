@@ -13,7 +13,7 @@ const Jumbotron = () => {
         <div className='mb-24 px-8'>
             <img
                 src={JUMBOTRON_IMAGE}
-                alt='netflix-bg'
+                alt='bilflix-bg'
                 className='absolute top-0 left-0 object-cover h-[700px] opacity-60 w-full'
             />
             <EachUtils
