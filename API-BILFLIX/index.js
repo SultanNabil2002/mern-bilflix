@@ -28,6 +28,11 @@ app.use(
     swaggerUI.setup(swaggerDocs, swaggerOptions)
 );
 
+// Arahkan root URL langsung ke halaman dokumentasi Swagger
+app.get("/", (req, res) => {
+    res.redirect("/docs");
+});
+
 // 1. Fungsi khusus untuk lingkungan Serverless Vercel
 const connectDB = async () => {
     // Jika mongoose sudah terkoneksi (readyState 1) atau sedang proses koneksi (readyState 2), biarkan saja
